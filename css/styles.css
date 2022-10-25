@@ -1,0 +1,132 @@
+
+body{
+    font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+#title{
+    background-color: #e75082;
+}
+#top{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height:1.5;
+    color: white;
+}
+.container{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2 rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 25%;
+    height: 80%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+#features{
+    transform: fade;
+    padding: 7% 15%;
+    background-color: #ffff;
+    position: relative;
+}
+.feature{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.des{
+    color: #8f8f8f;
+    
+}
+#awe{
+    color: #cc3366;
+    padding-bottom: 1rem;
+}
+#awe:hover{
+    color:#e75082;
+}
+.feature-box{
+    text-align: center;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #cc3366;
+    color: #ffff;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press
+{
+    background-color: #cc3366;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    text-align: center;
+    padding: 10px;
+}
+.un{
+    line-height: 13.9px;
+}
+@media(max-width:991px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #e75082;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+}
+.last{
+    font-size: 3.5rem;
+    line-height:1.5;
+    color: white;
+}
+#footer
+{
+    padding-top: 30px;
+    background-color: #ffff;
+    text-align: center;
+    line-height: 2;
+}
+.ic{
+    padding: 10px;
+}
